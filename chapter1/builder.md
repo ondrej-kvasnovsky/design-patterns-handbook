@@ -8,7 +8,9 @@ The goal when using Builder patter is to create fluent interface. Here is an exa
 new UserBuilder().withUserName("john").withAge(21).build();
 ```
 
-Here is an example a build that constructs a user. 
+### Example
+
+Here is an example a build that constructs a user.
 
 ```
 public class User {
