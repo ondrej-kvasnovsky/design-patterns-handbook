@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Creational Patterns](chapter1.md)
   * [Builder](chapter1/builder.md)
-  * Factory
+  * [Factory](chapter1/factory.md)
   * Abstract Factory
   * Factory Method
   * Prototype
