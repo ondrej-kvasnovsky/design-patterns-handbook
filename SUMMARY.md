@@ -6,7 +6,7 @@
   * [Factory](chapter1/factory.md)
   * [Abstract Factory](chapter1/abstract-factory.md)
   * [Factory Method](chapter1/factory-method.md)
-  * Prototype
+  * [Prototype](chapter1/prototype.md)
   * Singleton
   * Object Pool
 * [Structural Patterns](structural-patterns.md)
