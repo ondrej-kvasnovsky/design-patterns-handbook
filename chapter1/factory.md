@@ -1,6 +1,6 @@
 # Factory
 
-Factory pattern becomes handy we want to create instance based on some configuration. 
+Factory pattern becomes handy we want to create instance based on some configuration.
 
 Lets say we got a file of various data, it is full of cats and dogs. We want to read the file and create specific objects based on a discriminator. Something like `AnimalFactory.create("DOG", "Alex")`.
 
@@ -57,5 +57,5 @@ Animal cat = AnimalFactory.create("CAT", "Meow");
 Animal dog = AnimalFactory.create("DOG", "Johnson");
 ```
 
-
+If there are too many variables that should be passed into create method, we might want to combine this pattern with Builder pattern. When we call `create` method, it would return `AnimalBuilder`. It would become something like this:`AnimalBuilder buidler = AnimalFactory.create("DOG");`
 
