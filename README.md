@@ -1,3 +1,4 @@
-# My Awesome Book
+# Design Patterns Handbook
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This handbook is full of examples to inspire usage and easier understanding of design pattern.
+

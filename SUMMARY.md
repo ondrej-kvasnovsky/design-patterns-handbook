@@ -1,3 +1,7 @@
-# Table of content
+# Summary
 
-* [First Chapter](chapter1.md)
+* [Introduction](README.md)
+* [Creational Patterns](chapter1.md)
+* Structural Patterns
+* Behavioral Patterns
+
