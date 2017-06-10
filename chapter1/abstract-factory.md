@@ -77,6 +77,8 @@ class AnimalFactory {
 }
 ```
 
+> `AnimalAbstractFactory` can be implemented as interface or abstract class, it depends what is more useful for your problem.
+
 Then we need to create an object, we create specific factory and as a user of such code, we no idea what instance is going to be created \(because probably we shouldn't care\).
 
 ```
