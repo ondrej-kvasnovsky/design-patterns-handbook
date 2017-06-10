@@ -1,6 +1,8 @@
 # Factory
 
-Factory pattern becomes handy we want to create instance based on some configuration.
+Factory pattern becomes handy we want to dynamically create instance based on some inputs.
+
+### Example
 
 Lets say we got a file of various data, it is full of cats and dogs. We want to read the file and create specific objects based on a discriminator. Something like `AnimalFactory.create("DOG", "Alex")`.
 
