@@ -10,7 +10,7 @@
   * [Singleton](chapter1/singleton.md)
   * [Object Pool](chapter1/object-pool.md)
 * [Structural Patterns](structural-patterns.md)
-  * Adapter
+  * [Adapter](structural-patterns/adapter.md)
   * Composite
   * Proxy
   * Flyweight
