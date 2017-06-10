@@ -3,11 +3,11 @@
 The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes.
 
 ```
-abstract class Animal {
-    public abstract String getName();
+interface Animal {
+    String getName();
 }
 
-class Cat extends Animal {
+class Cat implements Animal {
 
     private String name;
 
@@ -21,7 +21,7 @@ class Cat extends Animal {
     }
 }
 
-class Dog extends Animal {
+class Dog implements Animal {
 
     private String name;
 
