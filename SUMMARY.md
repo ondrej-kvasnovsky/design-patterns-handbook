@@ -8,7 +8,7 @@
   * [Factory Method](chapter1/factory-method.md)
   * [Prototype](chapter1/prototype.md)
   * [Singleton](chapter1/singleton.md)
-  * Object Pool
+  * [Object Pool](chapter1/object-pool.md)
 * [Structural Patterns](structural-patterns.md)
   * Adapter
   * Composite
