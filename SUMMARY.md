@@ -5,7 +5,7 @@
   * [Builder](chapter1/builder.md)
   * [Factory](chapter1/factory.md)
   * [Abstract Factory](chapter1/abstract-factory.md)
-  * Factory Method
+  * [Factory Method](chapter1/factory-method.md)
   * Prototype
   * Singleton
   * Object Pool
