@@ -4,7 +4,7 @@
 * [Creational Patterns](chapter1.md)
   * [Builder](chapter1/builder.md)
   * [Factory](chapter1/factory.md)
-  * Abstract Factory
+  * [Abstract Factory](chapter1/abstract-factory.md)
   * Factory Method
   * Prototype
   * Singleton
