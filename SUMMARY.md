@@ -11,7 +11,7 @@
   * [Object Pool](chapter1/object-pool.md)
 * [Structural Patterns](structural-patterns.md)
   * [Adapter](structural-patterns/adapter.md)
-  * Composite
+  * [Composite](structural-patterns/composite.md)
   * Proxy
   * Flyweight
   * Facade
