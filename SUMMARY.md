@@ -25,7 +25,7 @@
   * [Observer](behavioral-patterns/observer.md)
   * [Strategy](behavioral-patterns/strategy.md)
   * [Command](behavioral-patterns/command.md)
-  * State
+  * [State](behavioral-patterns/state.md)
   * [Visitor](behavioral-patterns/visitor.md)
   * [Memento](behavioral-patterns/memento.md)
   * Interpreter
