@@ -72,7 +72,7 @@ while (iterator.hasNext()) {
 
 ### Example - Accessing database rows
 
-Here we create another iterator to move away from "iterator" keyword. It this case, ResultSet is the iterator. 
+Here we create another iterator to move away from "iterator" keyword. It this case, ResultSet is the iterator.
 
 ```
 import java.util.*;
@@ -104,7 +104,7 @@ class OneRowResultSet implements ResultSet {
 }
 ```
 
-Now we can use result set, fill it with values and iterate through it. 
+Now we can use result set, fill it with values and iterate through it.
 
 ```
 List<String> values = new ArrayList<>();
@@ -120,7 +120,7 @@ while (resultSet.hasNext()) {
 }
 ```
 
-The code above goes through all records and prints out the following. 
+The code above goes through all records and prints out the following.
 
 ```
 A
