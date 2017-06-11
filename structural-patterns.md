@@ -2,35 +2,35 @@
 
 Structural patterns are to ease the design by identifying a simple way to realize relationships between entities.
 
-Adapter
+[Adapter](/structural-patterns/adapter.md)
 
 * Match interfaces of different classes
 
-Composite
+[Composite](/structural-patterns/composite.md)
 
 * A tree structure of simple and composite objects
 
-Proxy
+[Proxy](/structural-patterns/proxy.md)
 
 * An object representing another object
 
-Flyweight
+[Flyweight](/structural-patterns/flyweight.md)
 
 * A fine-grained instance used for efficient sharing
 
-Facade
+[Facade](/structural-patterns/facade.md)
 
 * A single class that represents an entire subsystem
 
-Bridge
+[Bridge](/structural-patterns/bridge.md)
 
 * Separates an object's interface from its implementation
 
-Decorator
+[Decorator](/structural-patterns/decorator.md)
 
 * Add responsibilities to objects dynamically
 
-Private Class Data
+[Private Class Data](/structural-patterns/private-class-data.md)
 
 * Restricts accessor/mutator access
 
