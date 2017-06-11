@@ -28,7 +28,7 @@
   * [State](behavioral-patterns/state.md)
   * [Visitor](behavioral-patterns/visitor.md)
   * [Memento](behavioral-patterns/memento.md)
-  * Interpreter
+  * [Interpreter](behavioral-patterns/interpreter.md)
   * Null Object
   * Iterator
 
