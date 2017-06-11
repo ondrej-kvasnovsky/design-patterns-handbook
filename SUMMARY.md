@@ -24,7 +24,7 @@
   * [Chain Of Responsibility](behavioral-patterns/chain-of-responsibility.md)
   * [Observer](behavioral-patterns/observer.md)
   * [Strategy](behavioral-patterns/strategy.md)
-  * Command
+  * [Command](behavioral-patterns/command.md)
   * State
   * [Visitor](behavioral-patterns/visitor.md)
   * [Memento](behavioral-patterns/memento.md)
