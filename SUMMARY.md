@@ -15,7 +15,7 @@
   * [Proxy](structural-patterns/proxy.md)
   * [Flyweight](structural-patterns/flyweight.md)
   * [Facade](structural-patterns/facade.md)
-  * Bridge
+  * [Bridge](structural-patterns/bridge.md)
   * Decorator
   * Private Class Data
 * [Behavioral Patterns](behavioral-patterns.md)
