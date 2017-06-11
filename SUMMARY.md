@@ -16,7 +16,7 @@
   * [Flyweight](structural-patterns/flyweight.md)
   * [Facade](structural-patterns/facade.md)
   * [Bridge](structural-patterns/bridge.md)
-  * Decorator
+  * [Decorator](structural-patterns/decorator.md)
   * Private Class Data
 * [Behavioral Patterns](behavioral-patterns.md)
   * [Template Method](behavioral-patterns/template-method.md)
