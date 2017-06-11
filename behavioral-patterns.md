@@ -1,5 +1,7 @@
 # Behavioral Patterns
 
+Behavioral patterns help to solve interaction or communication of objects.
+
 Template method
 
 * Defer the exact steps of an algorithm to a subclass
