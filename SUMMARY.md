@@ -23,7 +23,7 @@
   * [Mediator](behavioral-patterns/mediator.md)
   * [Chain Of Responsibility](behavioral-patterns/chain-of-responsibility.md)
   * [Observer](behavioral-patterns/observer.md)
-  * Strategy
+  * [Strategy](behavioral-patterns/strategy.md)
   * Command
   * State
   * [Visitor](behavioral-patterns/visitor.md)
