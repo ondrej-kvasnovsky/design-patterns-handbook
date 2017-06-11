@@ -17,7 +17,7 @@
   * [Facade](structural-patterns/facade.md)
   * [Bridge](structural-patterns/bridge.md)
   * [Decorator](structural-patterns/decorator.md)
-  * Private Class Data
+  * [Private Class Data](structural-patterns/private-class-data.md)
 * [Behavioral Patterns](behavioral-patterns.md)
   * [Template Method](behavioral-patterns/template-method.md)
   * Mediator
