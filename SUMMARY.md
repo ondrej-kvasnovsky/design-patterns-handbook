@@ -12,7 +12,7 @@
 * [Structural Patterns](structural-patterns.md)
   * [Adapter](structural-patterns/adapter.md)
   * [Composite](structural-patterns/composite.md)
-  * Proxy
+  * [Proxy](structural-patterns/proxy.md)
   * Flyweight
   * Facade
   * Bridge
