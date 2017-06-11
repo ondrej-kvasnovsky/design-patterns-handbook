@@ -14,7 +14,7 @@
   * [Composite](structural-patterns/composite.md)
   * [Proxy](structural-patterns/proxy.md)
   * [Flyweight](structural-patterns/flyweight.md)
-  * Facade
+  * [Facade](structural-patterns/facade.md)
   * Bridge
   * Decorator
   * Private Class Data
