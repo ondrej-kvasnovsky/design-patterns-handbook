@@ -30,4 +30,5 @@
   * [Memento](behavioral-patterns/memento.md)
   * Interpreter
   * Null Object
+  * Iterator
 
