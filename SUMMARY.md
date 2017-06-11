@@ -22,7 +22,7 @@
   * [Template Method](behavioral-patterns/template-method.md)
   * [Mediator](behavioral-patterns/mediator.md)
   * [Chain Of Responsibility](behavioral-patterns/chain-of-responsibility.md)
-  * Observer
+  * [Observer](behavioral-patterns/observer.md)
   * Strategy
   * Command
   * State
