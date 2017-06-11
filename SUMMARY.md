@@ -30,5 +30,5 @@
   * [Memento](behavioral-patterns/memento.md)
   * [Interpreter](behavioral-patterns/interpreter.md)
   * [Null Object](behavioral-patterns/null-object.md)
-  * Iterator
+  * [Iterator](behavioral-patterns/iterator.md)
 
