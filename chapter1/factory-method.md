@@ -2,7 +2,7 @@
 
 Factory Method is using methods to create objects. Factory Method should define abstract methods in an abstract class or interface and classes that implement those are responsible for providing an instance.
 
-### Example
+### Example - Multi-platform UI
 
 We want to create a class design where we support two different architectures, Mac and Windows. The example is oversimplified but should provide basic idea.
 
@@ -81,7 +81,7 @@ Dialog dialog = new WindowsDialog();
 Dialog dialog = new MacDialog();
 ```
 
-### Factory method with Template pattern
+### Example - Factory method with Template pattern
 
 Usually, factory method is combined with Template pattern. Factory methods are responsible for object creation and Template for behavior of those newly created objects. We would have to implement `show` method in `AbstractDialog` that will represent the template that uses the newly created objects. Then we should remove implementation of `show` method in `WindowsDialog` and `MacDialog`.
 

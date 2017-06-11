@@ -6,7 +6,7 @@ Because many people used Singleton "everywhere", it became an anti-pattern. Sing
 
 > Before Java had enums, we used to implement singletons to mimic enums.
 
-### Thread-safe singleton
+### Example - Thread-safe singleton
 
 Here is an example of thread-safe Singleton. Lets explain key points of this implementation:
 

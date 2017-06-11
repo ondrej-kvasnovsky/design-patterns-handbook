@@ -2,7 +2,7 @@
 
 Adapter lets classes work together that could not otherwise because of incompatible interfaces.
 
-### Example
+### Example - User adaptation
 
 Lets say we work for eBay company and there are other users we need to integrate with our systems. Our, eBay, user is defined by `EbayUser` interface. External users are represented by class `ExternalUser`, but we do not want to mess with this class in our code and that is why we create an adapter that will adapt external user into our system.
 

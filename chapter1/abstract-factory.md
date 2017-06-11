@@ -2,9 +2,9 @@
 
 The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes.
 
-Frameworks that are providing dependency injection, like Spring, are solving this issue and probably, we won't needed Abstract Factory there. 
+Frameworks that are providing dependency injection, like Spring, are solving this issue and probably, we won't needed Abstract Factory there.
 
-### Example
+### Example - Animal factory
 
 Each domain object \(like Cat and Dog\) are going to have it's own factory. That way, can would never have to call `new Cat()` or `new Doc()` constructors. Instead we tell the factory the inputs and the factory makes sure we get an instance.
 

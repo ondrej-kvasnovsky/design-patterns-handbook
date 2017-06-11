@@ -4,7 +4,7 @@ Flyweight is inteded to use sharing to support large numbers of fine-grained obj
 
 Good example to explain usage Flyweight is UIKit by Apple. When we create TableView that is can display milions rows to the user, we know that user can see only few at the time. What Apple engineers did that they are reusing components that are on the table view to avoid any performance issues.
 
-### Example 
+### Example - UI component factory
 
 When our UI table should display a button, it will use ButtonFactory to get a button \(keeping track of what buttons are not used and visible is omitted\). Number that is the parameter in `get` method could be an ID of a button in a table row \(but it is not really important in this example\).
 
@@ -30,7 +30,7 @@ class ButtonFactory {
 }
 ```
 
-Then we would use the factory whenever we need an instance of a button that can be reused. 
+Then we would use the factory whenever we need an instance of a button that can be reused.
 
 ```
 ButtonFactory buttonFactory = new ButtonFactory();

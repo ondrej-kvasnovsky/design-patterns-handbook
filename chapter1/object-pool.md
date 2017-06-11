@@ -1,10 +1,10 @@
 # Object Pool
 
-Object Pool is useful when creating a new instance costs a lot of time. We can make performance boost by keeping pool of reusable objects instead of making new objects on request. 
+Object Pool is useful when creating a new instance costs a lot of time. We can make performance boost by keeping pool of reusable objects instead of making new objects on request.
 
-### Example
+### Example - Connection pool
 
-Good example to explain object pool is a database connection pool. 
+Good example to explain object pool is a database connection pool.
 
 ```
 class ConnectionPool {
@@ -52,7 +52,7 @@ pool.returnConnection(connection);
 System.out.println(pool);
 ```
 
-Here is the output of our test. 
+Here is the output of our test.
 
 ```
 Available: 3, taken: 0

@@ -2,7 +2,7 @@
 
 Prototype design pattern suggest to create a clone of a prototype rather than using `new` keyword and deep-copy all values to a clonned instance.
 
-### Simple Prototype
+### Example - Simple Prototype
 
 In order to implement prototype patern, we can simply implement Clonable interface from Java.
 
@@ -33,7 +33,7 @@ HumanCell cell = new HumanCell("DNA123");
 HumanCell identical = (HumanCell) cell.clone();
 ```
 
-### Define own prototype interface
+### Example - Define own prototype interface
 
 We can create our own interface that will define how a prototype should be copied into a new class.
 

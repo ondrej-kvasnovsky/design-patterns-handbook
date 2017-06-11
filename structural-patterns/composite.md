@@ -1,10 +1,10 @@
 # Composite
 
-When ever we need to a tree structure, we use composite pattern. 
+When ever we need to a tree structure, we use composite pattern.
 
-### Simple Composite
+### Example - Simple Composite
 
-There is a way to create really simple tree structure using composite patter \(but we have to omit few classes in order to make it really simplistic\). 
+There is a way to create really simple tree structure using composite patter \(but we have to omit few classes in order to make it really simplistic\).
 
 ```
 class TreeNode {
@@ -19,14 +19,14 @@ class TreeNode {
     public void addChild(TreeNode child) {
         children.add(child);
     }
-    
+
     public boolean isLeaf() {
         return children.size() == 0;
     }
 }
 ```
 
-Now we can create a tree using just TreeNode. 
+Now we can create a tree using just TreeNode.
 
 ```
 TreeNode root = new TreeNode("Root");
@@ -34,7 +34,7 @@ root.addChild(new TreeNode("Node 1"));
 root.addChild(new TreeNode("Leaf 1"));
 ```
 
-### Composite with an interface
+### Example - Composite with an interface
 
 Here is an example of composite pattern. `Leaf` can't have any children. `Node` can contain multiple implementations of `Component` interface. Node class is enabling the tree structure.
 
@@ -78,7 +78,7 @@ class Leaf implements Component {
 }
 ```
 
-Here is how to create a tree using the classes above. 
+Here is how to create a tree using the classes above.
 
 ```
 Node root = new Node("Root");
@@ -182,7 +182,7 @@ int result = multiply.evaluate();
 System.out.println(result);
 ```
 
-The program will print out the following. 
+The program will print out the following.
 
 ```
 30
