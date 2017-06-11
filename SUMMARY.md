@@ -29,6 +29,6 @@
   * [Visitor](behavioral-patterns/visitor.md)
   * [Memento](behavioral-patterns/memento.md)
   * [Interpreter](behavioral-patterns/interpreter.md)
-  * Null Object
+  * [Null Object](behavioral-patterns/null-object.md)
   * Iterator
 
