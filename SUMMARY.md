@@ -31,4 +31,3 @@
   * [Interpreter](behavioral-patterns/interpreter.md)
   * [Null Object](behavioral-patterns/null-object.md)
   * [Iterator](behavioral-patterns/iterator.md)
-

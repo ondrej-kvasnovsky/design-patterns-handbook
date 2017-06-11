@@ -29,6 +29,3 @@ Creational patterns are trying to help with object creation issues.
 [Singleton](/chapter1/singleton.md)
 
 * A class of which only a single instance can exist
-
-
-
