@@ -64,6 +64,8 @@ User john = new User.UserBuilder()
 
 ### Builder in JavaScript using async / await
 
+Since we want to threat the test code as production code, we should follow DRY principle. Then it becomes handy to put data creation into builders that we can reuse in test code. Here is a builder that will help us to insert data into database so we can run our integration tests.
+
 ```
 module.exports = class {
   constructor() {
@@ -92,7 +94,6 @@ module.exports = class {
     }
   }
 }
-
 ```
 
 
