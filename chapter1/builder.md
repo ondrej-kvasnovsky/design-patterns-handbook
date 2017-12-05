@@ -62,5 +62,38 @@ User john = new User.UserBuilder()
     .build();
 ```
 
+### Builder in JavaScript using async / await
+
+```
+module.exports = class {
+  constructor() {
+    this.promises = []
+  }
+
+  withUser() {
+    this.promises.push(async () => {
+      const userService = await Q.container.getAsync('userService')
+      await userService.save(new User('John'))
+    })
+    return this
+  }
+
+  withAccount() {
+    this.promises.push(async () => {
+      const accountService = await Q.container.getAsync('accountService')
+      await accountService.save(new Account('My Account'))
+    })
+    return this
+  }
+
+  async build() {
+    for (let promise of this.promises) {
+      await promise()
+    }
+  }
+}
+
+```
+
 
 
