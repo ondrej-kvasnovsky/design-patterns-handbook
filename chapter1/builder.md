@@ -64,6 +64,8 @@ User john = new User.UserBuilder()
 
 ### Builder in JavaScript using async / await
 
+When we are writing integration tests, we might need to insert some data, that are expected to be present, into database. We can write a SQL script or put SQLs into code that would executed before each test. But then it becomes difficult to update this script. As we add more features we might need to have multiple SQL scripts to cover various scenarios. Better is to split SQL inserts into methods of builder and let the user, the one who writes the integration tests, to choose what should be inserted. 
+
 Since we want to threat the test code as production code, we should follow DRY principle. Then it becomes handy to put data creation into builders that we can reuse in test code. Here is a builder that will help us to insert data into database so we can run our integration tests.
 
 ```
@@ -94,6 +96,26 @@ module.exports = class {
     }
   }
 }
+```
+
+Then we can use the builder in a test as follows. 
+
+```
+const TestDataBuilder = require('../../fixtures/test_data_builder')
+
+describe('User Is Able to Access his Account', function() {
+
+  beforeEach(async function() {
+    await new TestDataBuilder().withUser().withAccount().build()
+  })
+
+  describe('login()', function() {
+    it('fails to login because user is not linked with account', async function() {
+      // write test code here
+    })
+  })
+})
+
 ```
 
 
