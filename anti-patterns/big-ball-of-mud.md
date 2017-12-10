@@ -24,7 +24,7 @@ If we ever get to work with Big Ball of Mud, we need to follow the Boy Scouts of
 
 But before we can follow that rule, we need to get understanding of that code, which is the most difficult thing to do on that kind of project.
 
-### Example
+### Example of Big Ball of Mud pattern
 
 How does a big ball of mud looks? Lets try to create a concise example of Big Ball of Mud. The following code demonstrates the  feelings we get when we start reading Big Ball of Mud code. We don't know where it starts, we don't what it actually does, we don't know why it does certain things and we can see there are confusing comments that were added as requirements changed. Also we can see there was never any design applied on that code and certainly, no refactoring was done, like never ever. One could doubt that this code passed a code review.
 
