@@ -31,3 +31,6 @@
   * [Interpreter](behavioral-patterns/interpreter.md)
   * [Null Object](behavioral-patterns/null-object.md)
   * [Iterator](behavioral-patterns/iterator.md)
+* [Anti Patterns](anti-patterns.md)
+  * [Big Ball of Mud](anti-patterns/big-ball-of-mud.md)
+
