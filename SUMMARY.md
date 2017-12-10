@@ -34,4 +34,5 @@
 * [Anti Patterns](anti-patterns.md)
   * [Big Ball of Mud](anti-patterns/big-ball-of-mud.md)
   * [Singleton](anti-patterns/singleton.md)
+  * [Spaghetti Code](anti-patterns/spaghetti-code.md)
 
