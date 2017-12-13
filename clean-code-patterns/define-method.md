@@ -2,10 +2,11 @@
 
 Instead of having multiple lines of code with unclear purpose, we extract that code into to well named methods. By extracting these lines of code into methods, we usually give couple of variables clear scope and meaning.
 
-Rules: 
+Rules:
 
 * a new methods needs to have a name that is easy to understand
 * a new method can't use shortcuts or any abbreviations
+* number of lines in method should be small, but there are some unique exceptions
 
 > Any fool can write code that a computer can understand. Good programmers write code that humans can understand.  
 > -- Martin Fowler
