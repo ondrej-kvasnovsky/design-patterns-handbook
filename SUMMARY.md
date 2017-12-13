@@ -35,4 +35,6 @@
   * [Big Ball of Mud](anti-patterns/big-ball-of-mud.md)
   * [Singleton](anti-patterns/singleton.md)
   * [Spaghetti Code](anti-patterns/spaghetti-code.md)
+* [Clean Code Patterns](clean-code-patterns.md)
+  * [Define Method](clean-code-patterns/define-method.md)
 
