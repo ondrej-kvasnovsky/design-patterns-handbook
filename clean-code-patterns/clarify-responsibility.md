@@ -4,7 +4,7 @@ What ever code we produce, we always clarify responsibility by refactoring. We m
 
 ### Example - Builder
 
-Now a days there are not many opportunities to find code that is really wrong and really dumb. I got lucky today because I got this beauty. This class pretends to be responsible for user creation. But is does also generates user ID using a datasource. There are also other things wrong: 
+Now a days there are not many opportunities to find code that is really wrong and really dumb. I got lucky today because I got this beauty. This class pretends to be responsible for user creation. But is does also generates user ID using a datasource. There are also other things wrong:
 
 * stores and resets state in static variable
 * is using Singleton pattern without reason
@@ -14,7 +14,7 @@ Now a days there are not many opportunities to find code that is really wrong an
 * is using ancient naming conventions
 * and there is no test for this class \(maybe luckily, there is not test\)
 
-Here is the class, properly aged for 4 years in production. 
+Here is the class, properly aged for 4 years in production.
 
 ```
 import org.apache.commons.lang.StringEscapeUtils;
@@ -283,9 +283,9 @@ public final class UserBuilder {
 }
 ```
 
-Normally we would start with a test and then we could refactor the code in a responsible way. But this code is extremely hard to test. You would have to probably connect to database get MongoDB to test creation of users. Rather than that, we dare to modify it and as we refactor, we create tests to verify it is all working. 
+Normally we would start with a test and then we could refactor the code in a responsible way. But this code is extremely hard to test. You would have to probably connect to database get MongoDB to test creation of users. Rather than that, we dare to modify it and as we refactor, we create tests to verify it is all working.
 
-We need to clarify responsibility of this class first. The most important thing to do is to remove dependency on `Database` and `PasswordService` classes. In order to do that, we will have to: 
+We need to clarify responsibility of this class first. The most important thing to do is to remove dependency on `Database` and `PasswordService` classes. In order to do that, we will have to:
 
 * remove all static keywords from the code, we want to work with instance, not with a static variable
 * extract code that generates password to other class, e.g. `IdGenerator`
@@ -299,7 +299,7 @@ We need to clarify responsibility of this class first. The most important thing 
 * replace `fieldInvalid` method with a standard `isBlank` method
 * move `validatePassword` to another class, e.g. `PasswordValidator`
 
-Extract `generateID` into its own interface, because `IdGenerator` goes into database and we want to make our code testable. This way, we create a classes with clear responsibility, generate id. 
+Extract `generateID` into its own interface, because `IdGenerator` goes into database and we want to make our code testable. This way, we create a classes with clear responsibility, generate id.
 
 ```
 public interface IdGenerator {
