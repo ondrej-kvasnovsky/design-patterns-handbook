@@ -30,7 +30,7 @@ class DbEntry {
 public DbEntry build(CrazyOldEntity entity) {
   DbEntry entry = new DbEntry();
   entry.id = entity.getKey();
-  entry.index1 = entity.getIKON();
+  entry.index1 = entity.getKattu();
   entry.index2 = entity.getKrekos();
   entry.index3 = entity.getIKA();
   entry.index4 = entity.getKiitos();
