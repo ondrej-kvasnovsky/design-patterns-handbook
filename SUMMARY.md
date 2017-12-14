@@ -37,4 +37,5 @@
   * [Spaghetti Code](anti-patterns/spaghetti-code.md)
 * [Clean Code Patterns](clean-code-patterns.md)
   * [Define Method](clean-code-patterns/define-method.md)
+  * [Clarify Responsibility](clean-code-patterns/clarify-responsibility.md)
 
