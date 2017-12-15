@@ -470,7 +470,7 @@ public class UserBuilder {
 }
 ```
 
-In order to see how the newly refactored will be used, have a look at this sample of test code that was created while refactoring.
+In order to see how the newly refactored class is going to be used, have a look at this sample of test code that was created while refactoring.
 
 ```
 import org.jetbrains.spek.api.Spek
@@ -478,9 +478,11 @@ import org.jetbrains.spek.api.dsl.given
 import org.jetbrains.spek.api.dsl.it
 import org.jetbrains.spek.api.dsl.on
 import kotlin.test.assertEquals
+import kotlin.test.assertFailsWith
+import kotlin.test.assertNull
 
 class UserBuilderTest : Spek({
-    given("builds a new user") {
+    given("user details") {
         val id = "id"
         val username = "user@email.com"
         val password = "Password123!"
@@ -492,8 +494,9 @@ class UserBuilderTest : Spek({
         val authorizedGroups = mutableListOf(BatchGroup())
         val proficiency = "proficiency"
 
-        on("builds user") {
-            val user = UserBuilder().withId(id)
+        on("build user with all fields") {
+            val user = UserBuilder()
+                    .withId(id)
                     .withEmailAsUsername(username)
                     .withPassword(encryptedPassword)
                     .withName(firstName, lastName)
@@ -503,8 +506,8 @@ class UserBuilderTest : Spek({
                     .withDefaultProficiency(proficiency)
                     .build()
 
-            it("sets all fields") {
-                assertEquals(user.id, id)
+            it("contains all all fields") {
+                assertEquals(user.ID, id)
                 assertEquals(user.username, username)
                 assertEquals(user.email, username)
                 assertEquals(user.credentials, encryptedPassword)
@@ -516,8 +519,41 @@ class UserBuilderTest : Spek({
                 assertEquals(user.proficiency, proficiency)
             }
         }
+
+        on("build user only with mandatory fields") {
+            val user = UserBuilder()
+                    .withqId(id)
+                    .withEmailAsUsername(username)
+                    .withPassword(encryptedPassword)
+                    .withName(firstName, lastName)
+                    .withType(type)
+                    .withRoles(roles)
+                    .build()
+
+            it("contains mandatory fields") {
+                assertEquals(user.ID, id)
+                assertEquals(user.username, username)
+                assertEquals(user.email, username)
+                assertEquals(user.credentials, encryptedPassword)
+                assertEquals(user.firstName, firstName)
+                assertEquals(user.lastName, lastName)
+                assertEquals(user.type, type)
+                assertEquals(user.roles.stream().findFirst().get(), roles.get(0))
+                assertNull(user.authorizedGroups)
+                assertNull(user.proficiency)
+            }
+        }
+
+        on("build user with no fields") {
+            it("throws validation error") {
+                assertFailsWith(RuntimeException::class) {
+                    UserBuilder().build()
+                }
+            }
+        }
     }
 })
+
 ```
 
 
