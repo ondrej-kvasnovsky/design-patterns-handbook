@@ -14,5 +14,9 @@ This category of design patterns is based on the following points:
 >
 > -- Ward Cunningham
 
+There is a subtle difference between code which is new, the code which is new and kept refactored and code that nobody every did refactor over many years. 
+
+With this chapter, I hope to provide more insight on how to make code that does not rot.
+
 
 
