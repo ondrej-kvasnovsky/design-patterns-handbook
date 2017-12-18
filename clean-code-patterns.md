@@ -1,6 +1,6 @@
 # Clean Code Patterns
 
-While creational, structural and behavioral pattern help us to solve specific problems, clean code patterns help us to produce code that is readable, easily understandable and easy to change. Some of them are called low-level refactoring patterns.
+While creational, structural and behavioral pattern help us to solve specific problems, clean code patterns help us to produce code that is readable, easily understandable and easy to change. Some of them are called low-level refactoring patterns but some are rather ideas and principles to examine and be inspired by.
 
 Clean code patterns are activities that are supposed to be done continuously over the time. Clean code patterns become are supposed to become a good habit, rather than one time solution for a problem.
 
