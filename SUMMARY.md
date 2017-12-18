@@ -42,4 +42,5 @@
   * [Mad Scientist](anti-patterns/mad-scientist.md)
   * [Spaghetti Code](anti-patterns/spaghetti-code.md)
   * [It Will Never Happen](anti-patterns/it-will-never-happen.md)
+  * [Error Codes](anti-patterns/error-codes.md)
 
