@@ -34,6 +34,8 @@
 * [Clean Code Patterns](clean-code-patterns.md)
   * [Define Method](clean-code-patterns/define-method.md)
   * [Clarify Responsibility](clean-code-patterns/clarify-responsibility.md)
+  * [Remove Duplications](clean-code-patterns/remove-duplications.md)
+  * [Keep Refactoring](clean-code-patterns/keep-refactoring.md)
 * [Anti Patterns](anti-patterns.md)
   * [Big Ball of Mud](anti-patterns/big-ball-of-mud.md)
   * [Singleton](anti-patterns/singleton.md)
