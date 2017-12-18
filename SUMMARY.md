@@ -32,7 +32,7 @@
   * [Null Object](behavioral-patterns/null-object.md)
   * [Iterator](behavioral-patterns/iterator.md)
 * [Clean Code Patterns](clean-code-patterns.md)
-  * [Define Method](clean-code-patterns/define-method.md)
+  * [Extract Method](clean-code-patterns/define-method.md)
   * [Clarify Responsibility](clean-code-patterns/clarify-responsibility.md)
   * [Remove Duplications](clean-code-patterns/remove-duplications.md)
   * [Keep Refactoring](clean-code-patterns/keep-refactoring.md)
