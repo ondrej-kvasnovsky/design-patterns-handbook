@@ -2,6 +2,8 @@
 
 Instead of having multiple lines of code with unclear purpose, we extract that code into to well named methods. By extracting these lines of code into methods, we usually give couple of variables clear scope and meaning.
 
+This pattern is also called low-level refactoring. We need to be careful when we use this pattern. Even it is simple to do it, it does not mean we are supposed to do it always. 
+
 Rules:
 
 * a new methods needs to have a name that is easy to understand
