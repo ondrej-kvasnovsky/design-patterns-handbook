@@ -16,7 +16,9 @@ What are the exceptions? There can be a reason to not to write a unit test. The 
 
 ### Are there any excuses
 
-Many. 
+Many.
 
-One excuse I was personally fighting with was, "Should I write unit tests for code that might not be used, because it is just PoC or it is just a new product that have very low chance of success?". Why did I asked this question? Because I have spend really a lot of time to make sure our code is nearly 100% covered by tests. It was a lot of work just to implement all the time changing business logic. Keep high test coverage required extra effort. Then a project was thrown away. All that work vanished for ever. 
+One excuse I was personally fighting with was, "Should I write unit tests for code that might not be used, because it is just PoC or it is just a new product that have very low chance of success?". Why did I asked this question? Because I have spend really a lot of time to make sure our code is nearly 100% covered by tests. We have spent a lot of time by implementing all the business logic. Keep high test coverage required extra effort. Then a project was thrown away. All that work vanished for ever.
+
+Why to bother with tests anyway? First logical implication is that we never know what project is going to stay with us and what project is thrown away. But more importantly, we are professionals and we need to keep output of our work at the top level. We always need to create tests keeping test pyramid in mind. More unit tests than integration tests and more integration tests than end to end tests.
 
