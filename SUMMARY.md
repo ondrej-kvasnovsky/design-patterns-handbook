@@ -37,6 +37,7 @@
   * [Remove Duplications](clean-code-patterns/remove-duplications.md)
   * [Keep Refactoring](clean-code-patterns/keep-refactoring.md)
   * [Always Unit Test](clean-code-patterns/always-unit-test.md)
+  * [Create Data Type](clean-code-patterns/create-data-type.md)
 * [Anti Patterns](anti-patterns.md)
   * [Big Ball of Mud](anti-patterns/big-ball-of-mud.md)
   * [Singleton](anti-patterns/singleton.md)
