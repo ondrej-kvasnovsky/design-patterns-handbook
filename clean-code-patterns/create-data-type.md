@@ -1,12 +1,12 @@
 # Create Data Type
 
-For more complex and growing systems, it is more readable and maintainable to create type instead of using too many parameters or maps. 
+For more complex and growing systems, it is more readable and maintainable to create type instead of using too many parameters or maps.
 
 There is one exception. The exception is when we really need to handle dynamically changing number of parameters.
 
 ### Too many parameters
 
-As the code grows, we can end up with methods that have too many parameters. 
+As the code grows, we can end up with methods that have too many parameters.
 
 ```
 class UserService {
@@ -24,11 +24,11 @@ class UserService {
 }
 ```
 
-When we have so many parameters, we want to create an envelop data types that would wrap these objects. The easiest solution is to use a map, because it is provided by language itself. Lets see what is wrong with that. 
+When we have so many parameters, we want to create an envelop data types that would wrap these objects. The easiest solution is to use a map, because it is provided by language itself. Lets see what is wrong with that.
 
 ### Using Maps everywhere instead of classes
 
-Lets look at an example. The controller gets some parameters. We have got only three and we could just pass them into service, imagine there 20 parameters that needs to be wrapped before they are sent to service. 
+Lets look at an example. The controller gets some parameters. We have got only three and we could just pass them into service, imagine there 20 parameters that needs to be wrapped before they are sent to service.
 
 > It is questionable if using maps everywhere is wrong for dynamically typed languages. It depends, but many times, it is better to have data type for better maintainability.
 
@@ -58,7 +58,7 @@ class Service {
 }
 ```
 
-What is wrong with using maps: 
+What is wrong with using maps:
 
 * We are loosing information about type
 * It is not clear what is the signature of the method, maps are too generic
@@ -66,7 +66,7 @@ What is wrong with using maps:
 
 ### Using Data Type instead of Maps or too many parameters
 
-Lets create data types instead of using the maps or instead of having so many parameters. 
+Lets create data types instead of using the maps or instead of having so many parameters.
 
 ```
 class Request {
