@@ -46,4 +46,5 @@
   * [Spaghetti Code](anti-patterns/spaghetti-code.md)
   * [It Will Never Happen](anti-patterns/it-will-never-happen.md)
   * [Error Codes](anti-patterns/error-codes.md)
+  * [Commented Code](anti-patterns/commented-code.md)
 
