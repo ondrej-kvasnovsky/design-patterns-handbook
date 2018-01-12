@@ -1,8 +1,6 @@
 # Error Codes
 
-
-
-
+When the error codes escape from a system to clients, then they are supposed to find the solution based on the code. Forcing users to decrypt error code and find a solution is very irritating. 
 
 ```
 public class ExceptionErrorCodes {
