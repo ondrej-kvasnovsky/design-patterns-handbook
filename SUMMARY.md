@@ -39,6 +39,7 @@
   * [Always Unit Test](clean-code-patterns/always-unit-test.md)
   * [Create Data Type](clean-code-patterns/create-data-type.md)
   * [Comment to Better Name](clean-code-patterns/comment-to-better-name.md)
+  * [Consistent Naming](clean-code-patterns/consistent-naming.md)
 * [Anti Patterns](anti-patterns.md)
   * [Big Ball of Mud](anti-patterns/big-ball-of-mud.md)
   * [Singleton](anti-patterns/singleton.md)
@@ -47,4 +48,5 @@
   * [It Will Never Happen](anti-patterns/it-will-never-happen.md)
   * [Error Codes](anti-patterns/error-codes.md)
   * [Commented Code](anti-patterns/commented-code.md)
+  * [Abbreviations](anti-patterns/abbreviations.md)
 
