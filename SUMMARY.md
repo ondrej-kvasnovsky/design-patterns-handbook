@@ -50,4 +50,5 @@
   * [Error Codes](anti-patterns/error-codes.md)
   * [Commented Code](anti-patterns/commented-code.md)
   * [Abbreviations](anti-patterns/abbreviations.md)
+  * [Prefixes](anti-patterns/prefixes.md)
 
