@@ -1,6 +1,8 @@
 # Design Patterns Handbook
 
-This handbook is full of examples to inspire usage and easier understanding of design patterns.
+This handbook is full of examples to inspire usage and easier understanding of design patterns. What actually is a pattern? 
+
+_Each pattern is a three-part rule, which expresses a relation between a certain context, a problem, and a solution. -- Alexander_
 
 When we start learning design patterns, we might tend to use them whenever possible. That can lead to over-engineering, which produces more code than it is necessary to implement the needed requirement. It is also called as over using of design patterns.
 
