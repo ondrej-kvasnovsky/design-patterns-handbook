@@ -51,4 +51,5 @@
   * [Commented Code](anti-patterns/commented-code.md)
   * [Abbreviations](anti-patterns/abbreviations.md)
   * [Prefixes](anti-patterns/prefixes.md)
+  * [Over Patternized](anti-patterns/over-patternized.md)
 
