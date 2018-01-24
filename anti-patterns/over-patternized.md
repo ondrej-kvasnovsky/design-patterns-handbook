@@ -14,7 +14,7 @@ class PrintHelloWorld {
 }
 ```
 
-The other approach is to throw there couple of design patterns. We are going to use `Facade` pattern because amount of classes is too high to expect someone would try to understand what is happening under the hood. `Facade` patter helps us to wrap all the logic. It first creates a message using `Builder` pattern pattern. Then it acquires command factory using `Factory` and `Singleton` patterns. Then we create a new command that will be responsible for printing out the text, `Command` pattern. When we have command pattern, we just call execute which prints out the message. 
+The other approach is to throw there couple of design patterns \(BDUF - big design up front\). We are going to use `Facade` pattern because amount of classes is too high to expect someone would try to understand what is happening under the hood. `Facade` patter helps us to wrap all the logic. It first creates a message using `Builder` pattern pattern. Then it acquires command factory using `Factory` and `Singleton` patterns. Then we create a new command that will be responsible for printing out the text, `Command` pattern. When we have command pattern, we just call execute which prints out the message.
 
 ```
 class PrintHelloWorld {
