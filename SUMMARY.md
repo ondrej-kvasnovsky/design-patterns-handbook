@@ -43,6 +43,7 @@
   * [If-else over ternary operator](clean-code-patterns/if-else-over-ternary-operator.md)
   * [Composition over Inheritance](clean-code-patterns/composition-over-inheritance.md)
   * [Too Many Returns](clean-code-patterns/too-many-returns.md)
+  * [Private to Interface](clean-code-patterns/private-to-interface.md)
 * [Anti Patterns](anti-patterns.md)
   * [Big Ball of Mud](anti-patterns/big-ball-of-mud.md)
   * [Singleton](anti-patterns/singleton.md)
