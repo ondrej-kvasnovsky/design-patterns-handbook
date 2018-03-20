@@ -1,11 +1,11 @@
-# Interpreter 
+# Interpreter
 
 * Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
 * Map a domain to a language, the language to a grammar, and the grammar to a hierarchical object-oriented design.
 
 ### Example - Expression with variables
 
-We are going to use interpreter to evaluate mathematical expression with variables. 
+We are going to use interpreter to evaluate mathematical expression with variables.
 
 ```
 class Evaluator {
