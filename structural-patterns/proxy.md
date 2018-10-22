@@ -92,7 +92,7 @@ console.log(myProxiedObject.hello());
 console.log(myProxiedObject.goodbye());
 ```
 
-Or there is easier way to create proxy, taking advantage of dynamic typing in JavaScript. 
+Or there is easier way to create proxy, taking advantage of dynamic typing in JavaScript.
 
 ```
 function createProxy(subject) {
@@ -107,6 +107,21 @@ const myProxiedObject = createProxy(myObject);
 console.log(myProxiedObject instanceof MyObject); // return false
 console.log(myProxiedObject.hello());
 console.log(myProxiedObject.goodbye());
+```
+
+ES2015 contains Proxy implementation. 
+
+```
+class MyObject {
+  constructor(name) {
+    this.name = name;
+  }
+}
+const myObj = new MyObject("Celeste");
+const myProxied = new Proxy(myObj, {
+  get: (target, property) => target[property].toUpperCase()
+});
+console.log(myProxied.name); // prints "CELESTE"
 ```
 
 
