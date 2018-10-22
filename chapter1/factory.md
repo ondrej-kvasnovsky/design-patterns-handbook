@@ -61,3 +61,96 @@ Animal dog = AnimalFactory.create("DOG", "Johnson");
 
 If there are too many variables that should be passed into create method, we might want to combine this pattern with Builder pattern. When we call `create` method, it would return `AnimalBuilder`. It would become something like this:`AnimalBuilder buidler = AnimalFactory.create("DOG");`
 
+## Example - Factory in JavaScript
+
+Here is an example of factory function that creates a specific instance of image class. 
+
+```
+function createImage(name) {
+  if (name.match(/\.jpeg$/)) {
+    return new JpegImage(name);
+  } else  if (name.match(/\.png/)) {
+    return new PngImage(name);
+  } else {
+    throw new Error('Unsupported image format')
+  }
+}
+
+class JpegImage {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+class PngImage {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+const jpeg = createImage('my.jpeg');
+console.log(jpeg instanceof JpegImage);
+
+const png = createImage('my.png');
+console.log(png instanceof PngImage);
+
+createImage('my.gif');
+```
+
+## Example - Enforce encapsulation
+
+This example shows factory method that not only creates a new instances, but also hides some properties from the user. 
+
+    function createImage(name) {
+      if (name.match(/\.jpeg$/)) {
+        return createJpeg(name);
+      } else  if (name.match(/\.png/)) {
+        return createPng(name);
+      } else {
+        throw new Error('Unsupported image format')
+      }
+    }
+
+    function createPng(name) {
+      const privateProperties = {};
+
+      class PngImage {
+        constructor(name) {
+          this.name = name;
+          privateProperties.veryInternal = `very special and internal thing that nobody can change`
+        }
+        getSomethingSpecialThatNobodyCanModify() {
+          return privateProperties.veryInternal;
+        }
+      }
+      const image = new PngImage(name);
+      return image;
+    }
+
+    function createJpeg(name) {
+      const privateProperties = {};
+      class JpegImage {
+        constructor(name) {
+          this.name = name;
+          privateProperties.veryInternal = `another very special and internal thing that nobody can change`
+        }
+        getSomethingSpecialThatNobodyCanModify() {
+          return privateProperties.veryInternal;
+        }
+      }
+
+      const image = new JpegImage(name);
+
+      return image;
+    }
+
+    const jpeg = createImage('my.jpeg');
+    console.log(jpeg);
+    console.log(jpeg.getSomethingSpecialThatNobodyCanModify());
+
+    const png = createImage('my.png');
+    console.log(png);
+    console.log(png.getSomethingSpecialThatNobodyCanModify());
+
+
+

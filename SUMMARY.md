@@ -9,6 +9,7 @@
   * [Prototype](chapter1/prototype.md)
   * [Singleton](chapter1/singleton.md)
   * [Object Pool](chapter1/object-pool.md)
+  * [Revealing Constructor](chapter1/revealing-constructor.md)
 * [Structural Patterns](structural-patterns.md)
   * [Adapter](structural-patterns/adapter.md)
   * [Composite](structural-patterns/composite.md)
