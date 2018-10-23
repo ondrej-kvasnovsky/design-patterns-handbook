@@ -32,6 +32,7 @@
   * [Interpreter](behavioral-patterns/interpreter.md)
   * [Null Object](behavioral-patterns/null-object.md)
   * [Iterator](behavioral-patterns/iterator.md)
+  * [Middleware](behavioral-patterns/middleware.md)
 * [Clean Code Patterns](clean-code-patterns.md)
   * [Extract Method](clean-code-patterns/define-method.md)
   * [Clarify Responsibility](clean-code-patterns/clarify-responsibility.md)

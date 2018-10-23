@@ -109,7 +109,7 @@ console.log(myProxiedObject.hello());
 console.log(myProxiedObject.goodbye());
 ```
 
-ES2015 contains Proxy implementation. 
+ES2015 contains Proxy implementation.
 
 ```
 class MyObject {
