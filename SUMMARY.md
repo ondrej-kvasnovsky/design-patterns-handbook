@@ -57,4 +57,5 @@
   * [Abbreviations](anti-patterns/abbreviations.md)
   * [Prefixes](anti-patterns/prefixes.md)
   * [Over Patternized](anti-patterns/over-patternized.md)
+  * [Generic Interface over Function](anti-patterns/generic-interface-over-function.md)
 
