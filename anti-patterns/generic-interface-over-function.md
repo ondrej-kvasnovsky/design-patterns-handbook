@@ -1,6 +1,6 @@
 # Generic Interface over Function
 
-We should create generic interfaces only if they are adding value and increasing readability of the code. 
+We should create generic interfaces only if they are adding value and increasing readability of the code.
 
 ```
 export interface MessageTranslator<A, B> {
@@ -27,7 +27,7 @@ export class Processor {
 }
 ```
 
-The code above could look like this. We could just create the transformation functions and use them directly, because they are pure functions. 
+The code above could look like this. We could just create the transformation functions and use them directly, because they are pure functions.
 
 ```
 function toIntentRequest(request): DetectIntentRequest {
